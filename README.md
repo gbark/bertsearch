@@ -1,3 +1,6 @@
+# Notes:
+https://www.elastic.co/blog/text-similarity-search-with-vectors-in-elasticsearch
+
 # Elasticsearch meets BERT
 
 Below is a job search example:

@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/sofia/.pyenv/shims/python",
+    "python.formatting.provider": "black"
+}

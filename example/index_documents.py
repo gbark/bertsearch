@@ -19,8 +19,10 @@ def main(args):
     bulk(client, docs)
 
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Indexing elasticsearch documents.')
-    parser.add_argument('--data', default='documents.jsonl', help='Elasticsearch documents.')
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Indexing elasticsearch documents.")
+    parser.add_argument(
+        "--data", default="documents.jsonl", help="Elasticsearch documents."
+    )
     args = parser.parse_args()
     main(args)
